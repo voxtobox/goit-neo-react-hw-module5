@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.poster {
+  width: 250px;
+  height: 375px;
+}

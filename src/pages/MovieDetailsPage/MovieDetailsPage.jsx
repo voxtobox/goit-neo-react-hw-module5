@@ -25,7 +25,7 @@ export default function MovieDetailsPage() {
     <>
       {!!movieData?.id && (
         <div className={css.page}>
-          <Link to={location.state}>
+          <Link to={location.state || '/movies'}>
             <button>Go back</button>
           </Link>
           <div className={css.main}>
